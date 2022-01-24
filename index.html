@@ -30,8 +30,6 @@
             height: 20px !important;
         }
 
-
-
         @media only screen and (max-width: 600px) {
 
 
@@ -61,7 +59,7 @@
     <header>
 
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand fw-bold text-danger" href="#">Silva Convention Center</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -90,7 +88,7 @@
 
         <!-- banner start -->
 
-        <section class=" mx-auto container-fluid">
+        <section class=" mx-auto container bg-light py-3">
             <div id="carouselExampleCaptions" class="carousel slide h-25" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -144,14 +142,64 @@
         </section>
         <!-- banner end -->
 
-        <h1 class="text-danger d-flex justify-content-center container">Welcome to Silva Convention Center</h1>
+        <div class="container my-5">
 
+            <div class="row bg-light border border-bg-danger g-4">
+                <h1 class="text-danger d-flex justify-content-center container me-4">Welcome to Silva Convention Center
+                </h1>
+
+                <div class="col-lg-6 col-sm-12">
+                    <p class="border border-bg-danger">Silva Convention Center is the only multi-purpose convention
+                        facility in
+                        the country, having 17 (seventeen) venues for holding small to large scale events, i.e, state
+                        functions, social events, seminars, conferences, product launches, annual general meetings,
+                        fairs,
+                        exhibitions, cultural programs, reality shows, etc. BICC has been the venue for many renowned
+                        economic, social and cultural events. It has proudly hosted a number of international
+                        conferences
+                        and summits.
+
+                    </p>
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+
+                    <div class="row bg-light border border-bg-danger ">
+                        <h3>Check shedule</h3>
+                        <div class="col-lg-12 col-sm-12 ">
+                            <select class="form-select mx-auto" aria-label="Default select example">
+                                <option selected>Open this select menu</option>
+                                <option value="1">Business Fair</option>
+                                <option value="2">Wedding Basic</option>
+                                <option value="3">Wedding plus</option>
+                                <option value="3">Corporate event</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="col-lg-12  col-sm-12 my-3">
+                            <div><label for="start">Pick a date:</label>
+
+                                <input class="mx-auto date form" type="date" id="start" name="trip-start"
+                                    value="2018-07-22" min="2022-01-01" max="2022-12-31">
+                            </div>
+                        </div>
+                        <div class="w-100 pb-3 col-lg-12 col-sm-12">
+                        <button type="button" class="mx-auto btn btn-danger"><a
+                                href="#">Check
+                                Availability
+                            </a></button>
+                            </div>
+
+                    </div>
+                </div>
+
+            </div>
     </header>
     <!-- header end -->
 
 
 
-    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast show  " role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">
             <img src="icons/gift.png" class="rounded me-2  " width="20px" alt="...">
             <strong class="me-auto text-black">25% Off till Jaanuary 31!</strong>
@@ -395,7 +443,7 @@
 
         <div class="row mb-5">
             <div class="col-sm-12 col-lg-4 order order-sm-1">
-                <img src="icons/faq.png" class="w-100 container border-0 pt-5" alt="">
+                <img src="icons/faq.png" class="w-100 container border-0 border rounded-pill p-5" alt="">
             </div>
             <div class="col-sm-12 p-5 col-lg-6 ">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -447,7 +495,7 @@
         </div>
     </section>
 
-    <footer class="bg-dark py-4 text-white" style="height: 150px;">
+    <footer class="container bg-dark py-4 text-white" style="height: 150px;">
         <div class="d-flex flex-row align-items-center justify-content-between">
 
             <div class="col1">
