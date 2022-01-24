@@ -17,24 +17,32 @@
             color: white;
         }
 
-        .toast{display: visible !important;}
-
-        /* .carousel-inner {
-            height: 350px;
+        .toast {
+            display: visible !important;
         }
 
-        .item,
-        img {
-            height: 100% !important;
-            width: 100% !important;
-            border: 1px solid red;
-        } */
+        body {
+            background-color: #CAD5E2;
+        }
+
+        .toast-header img {
+            width: 20px !important;
+            height: 20px !important;
+        }
+
+
 
         @media only screen and (max-width: 600px) {
 
 
-            .item,
-            img {
+            .item {
+                height: 600px !important;
+                width: 100% !important;
+                border: 1px solid red;
+
+            }
+
+            .carousel-item img {
                 height: 600px !important;
                 width: 100% !important;
                 border: 1px solid red;
@@ -52,9 +60,9 @@
     <!-- header start -->
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand fw-bold" href="#">Silva Convention Center</a>
+                <a class="navbar-brand fw-bold text-danger" href="#">Silva Convention Center</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -136,233 +144,325 @@
         </section>
         <!-- banner end -->
 
-        <h1 class="text-danger d-flex justify-content-center">Welcome to Silva Convention Center</h1>
+        <h1 class="text-danger d-flex justify-content-center container">Welcome to Silva Convention Center</h1>
 
     </header>
     <!-- header end -->
 
 
 
-    <div class="toast shown.bs.toast"  role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
         <div class="toast-header">
-            <img src="icons/gift.png" class="rounded me-2" alt="...">
+            <img src="icons/gift.png" class="rounded me-2  " width="20px" alt="...">
             <strong class="me-auto text-black">25% Off till Jaanuary 31!</strong>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
         </div>
     </div>
 
-    
+
     <main>
         <div class="container my-5">
-            <h1 class="d-flex justify-content-center my-5">Our Services</h1>
+            <h1 class="d-flex justify-content-center my-5 ">Our Services</h1>
             <div class="row ">
-                
-
- <!-- plan one start -->
-
-                <div class="col-sm-12 col-lg-3 ">
-                  <div class="card border border-0">
-                    <h3 class="ms-3 mt-3">$300</h3>
-                    <div class="card-body">
-                      <h5 class="card-title">Business fair</h5>
-                      <p class="card-text">For simple marriage package.</p>
 
 
-
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Limited space access
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Secuirty facility
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Event support
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Decoration design
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Per Day bill
-                        </label>
-                      </div>
-
-                      <div class="d-grid gap-2">
-                        <button class="btn btn-light mt-4" type="button">Choose plan</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-    <!-- plane one end             -->
- <!-- plan two start -->
+                <!-- plan one start -->
 
                 <div class="col-sm-12 col-lg-3 ">
-                  <div class="card border border-0">
-                    <h3 class="ms-3 mt-3">$500</h3>
-                    <div class="card-body">
-                      <h5 class="card-title">Wedding basic</h5>
-                      <p class="card-text">For chill marriage package.</p>
+                    <div class="card border border-0">
+                        <h3 class="ms-3 mt-3">$300</h3>
+                        <div class="card-body">
+                            <h5 class="card-title">Business fair</h5>
+                            <p class="card-text">For simple marriage package.</p>
 
 
 
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Full space access
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Food arrangement
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Management support
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Decoration design
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Billed as shift
-                        </label>
-                      </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Limited space access
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Secuirty facility
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Event support
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Decoration design
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Per Day bill
+                                </label>
+                            </div>
 
-                      <div class="d-grid gap-2">
-                        <button class="btn btn-light mt-4" type="button">Choose plan</button>
-                      </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-light mt-4" type="button">Choose plan</button>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-    <!--plan two end             -->
- <!-- plan third start -->
+                <!-- plane one end             -->
+                <!-- plan two start -->
+
+                <div class="col-sm-12 col-lg-3 ">
+                    <div class="card border border-0">
+                        <h3 class="ms-3 mt-3">$500</h3>
+                        <div class="card-body">
+                            <h5 class="card-title">Wedding basic</h5>
+                            <p class="card-text">For chill marriage package.</p>
+
+
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Full space access
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Food arrangement
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Management support
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Decoration design
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Billed as shift
+                                </label>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-light mt-4" type="button">Choose plan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--plan two end             -->
+                <!-- plan third start -->
 
                 <div class="col-sm-12 col-lg-3  ">
-                    
-
-                  <div class="card border rounded-3 border-0 text-white bg-primary bg-opacity-75 ">
-                    <span class="badge rounded-pill bg-danger text-white ms-auto p-2">Hot</span>
-                    <h3 class="ms-3 mt-3">$800</h3>
-                    <div class="card-body">
-                      <h5 class="card-title">Wedding plus</h5>
-                      <p class="card-text">For most weddings with premium plans.</p>
 
 
+                    <div class="card border rounded-3 border-0 text-white bg-primary bg-opacity-75 ">
+                        <span class="badge rounded-pill bg-danger text-white ms-auto top-0 ">Hot</span>
+                        <h3 class="ms-3 mt-3">$800</h3>
+                        <div class="card-body">
+                            <h5 class="card-title">Wedding plus</h5>
+                            <p class="card-text">For most weddings with premium plans.</p>
 
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Full space access
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Dedicated team
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Buffet food
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Premium Decoration
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Pay as plan
-                        </label>
-                      </div>
 
-                      <div class="d-grid gap-2">
-                        <button class="btn btn-danger mt-4" type="button">Choose plan</button>
-                      </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Full space access
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Dedicated team
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Buffet food
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Premium Decoration
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Pay as plan
+                                </label>
+                            </div>
+
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-danger mt-4" type="button">Choose plan</button>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-    <!-- third one end             -->
- <!-- plan four start -->
+                <!-- third one end             -->
+                <!-- plan four start -->
 
                 <div class="col-sm-12 col-lg-3 ">
-                  <div class="card border border-0 ">
-                    <h3 class="ms-3 mt-3">$1200</h3>
-                    <div class="card-body">
-                      <h5 class="card-title">Corporate event</h5>
-                      <p class="card-text">For most corporate business class event.</p>
+                    <div class="card border border-0 ">
+                        <h3 class="ms-3 mt-3">$1200</h3>
+                        <div class="card-body">
+                            <h5 class="card-title">Corporate event</h5>
+                            <p class="card-text">For most corporate business class event.</p>
 
 
 
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Limited space access
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Secuirty facility
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Event support
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Decoration design
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-                        <label class="form-check-label" for="flexCheckCheckedDisabled">
-                          Per Day bill
-                        </label>
-                      </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Limited space access
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Secuirty facility
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Event support
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Decoration design
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled"
+                                    checked disabled>
+                                <label class="form-check-label" for="flexCheckCheckedDisabled">
+                                    Per Day bill
+                                </label>
+                            </div>
 
-                      <div class="d-grid gap-2">
-                        <button class="btn btn-light mt-4" type="button">Choose plan</button>
-                      </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-light mt-4" type="button">Choose plan</button>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-    <!-- plane four end             -->
+                <!-- plane four end             -->
 
 
-        </div>
+            </div>
     </main>
 
-    <footer>
+    <section class="container">
+        <h1 class="d-flex justify-content-center my-5 pt-5">Frequently Asked Questions</h1>
+
+        <div class="row mb-5">
+            <div class="col-sm-12 col-lg-4 order order-sm-1">
+                <img src="icons/faq.png" class="w-100 container border-0 pt-5" alt="">
+            </div>
+            <div class="col-sm-12 p-5 col-lg-6 ">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                What is your refund and cancellation policy?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Yes. you can cancel your booked before minimum 72 hours ago of
+                                the event.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Can i pay aftergetting service?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">No, at first you must buy a plan from our service plane
+                                option.then you will get all benefit.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                How many people can gettogether ? your capacity?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">We have big auditoriam ,about 500 people can stay here at a
+                                time.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-dark py-4 text-white" style="height: 150px;">
+        <div class="d-flex flex-row align-items-center justify-content-between">
+
+            <div class="col1">
+                ©2022 Silva Convention Center, all right reserved.
+            </div>
+
+            <div class="col2 ms-auto pe-4">
+                <div><a href="https://play.google.com"><img src="icons/play-store.png" class="mb-3 " height="35px"
+                            width="100" alt=""> </a> </div>
+                <div><a href="https://www.apple.com/itunes"><img src="icons/apple.png" class="" height="35px"
+                            width="100" alt=""> </a> </div>
+
+            </div>
+        </div>
+
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
